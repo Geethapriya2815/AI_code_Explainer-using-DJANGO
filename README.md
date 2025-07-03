@@ -1,4 +1,4 @@
-```markdown
+
 # 🧠 AI Code Explainer using DJANGO
 
 This is a web application that uses AI to explain Python code. Built with Django, it provides an intuitive interface where users can input code and receive explanations for better understanding.
