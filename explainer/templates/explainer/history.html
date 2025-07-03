@@ -1,0 +1,12 @@
+<h2>Your Explanation History</h2>
+<ul>
+  {% for item in history %}
+    <li><pre>{{ item.code_snippet }}</pre>
+        <strong>Explanation:</strong><br>
+        <pre>{{ item.explanation }}</pre>
+        <em>{{ item.submitted_at }}</em>
+    </li>
+  {% empty %}
+    <li>No history yet.</li>
+  {% endfor %}
+</ul>
