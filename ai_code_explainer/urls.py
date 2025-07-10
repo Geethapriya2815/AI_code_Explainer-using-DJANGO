@@ -9,5 +9,5 @@ urlpatterns = [
     path('', views.home, name='home'),  # custom home
     path('explain/', views.explain_code, name='explain_code'),
     path('history/', views.explanation_history, name='explanation_history'),
-    path('accounts/', include('django.contrib.auth.urls')),  # 👈 built-in login/logout
+    path('accounts/', include('django.contrib.auth.urls')),  # built-in login/logout
 ]
